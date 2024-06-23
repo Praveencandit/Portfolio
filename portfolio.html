@@ -1,0 +1,206 @@
+<html>
+<head>
+    <title>
+        My Portfolio
+    </title>
+    <link rel="stylesheet" href="Style.css">
+    <script src="https://kit.fontawesome.com/73c0ec446f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <H1>K.PRAVEEN KUMAR</H1>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="" alt="">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <nav>
+                <div class="header-text">
+                    <p>Web Designer</p>
+                    <h1>Hi I'm <br><span>Praveen Kumar</span> <br>from India</h1>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- ------about--------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+            <div class="about-col-1">
+                <img src="mer.jfif" >
+            </div>
+            <div class="about-col-2">
+                <h1 class="SubTitle">About Me</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis cumque explicabo natus accusamus doloribus aperiam autem earum corrupti recusandae et mollitia ex ipsa, placeat ipsam minus quibusdam ratione quis blanditiis.</p>
+                <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('Educations')">Educations</p>
+                <p class="tab-links" onclick="opentab('Projects')">Projects</p>
+            </div>
+            <div class="tab-content active-tab" id="Skills">
+                <ul>
+                    <li><span>UI/UX</span><br>Designing web/app interface</li>
+                    <li><span>Web Development</span><br>Web app Development</li>
+                    <li><span>App Development</span><br>Building android apps</li>
+                </ul>
+            </div>
+            <div class="tab-content" id="Educations">
+                <ul>
+                    <li><span>2020-2024 : B.E Computer Science and Engineering(8.5 CGPA)</span><br>Prince Dr K Vasudevan College of Engineering and Technology</li>
+                    <li><span>2019-2020: 12th(65%)</span><br>Sai Matriculation Higher Secondary School</li>
+                    <li><span>2018 : 10th(83%)</span><br>Himayam Matriculation Higher Secondary School</li>
+                </ul>
+            </div>
+            <div class="tab-content" id="Projects">
+                <ul>
+                    <li><span>Brain Tumor Detection</span><br>To identify the presence and location of the tumor in brain</li>
+                    <li><span>Face Detection in Atm</span><br>Developed to provide security in Atm</li>
+                </ul>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--services-->
+<div id="services">
+    <div class="container">
+        <h1 class="SubTitle">My Services
+        </h1>
+        <div class="service-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet, rerum dolorum, saepe tenetur fugiat cum quod alias dignissimos totam suscipit cumque. Itaque facilis assumenda sint necessitatibus ipsam consequatur alias reprehenderit!</p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX</h2>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error eligendi, corrupti possimus consequuntur repudiandae sunt repellat ab doloremque. Temporibus consequatur eius error dolore? Necessitatibus debitis, unde neque officia animi facilis?</P>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>
+                    APP DESIGN
+                </h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At cupiditate saepe pariatur mollitia maxime, libero dolorem voluptate laudantium consectetur facere omnis ex cum. Modi sunt doloribus ut ad obcaecati eos!</p>
+                <a href="#">learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- --------Portfolio-------- -->
+ <div id="portfolio">
+    <div class="container">
+        <h1 class="SubTitle">My Work</h1>
+        <div class="worklist">
+            <div class="work">
+                <img src="work1.jfif" alt="">
+                <div class="layer">
+                    <h3>Socila Media App</h3>
+                    <p>This app connects you with the people around you. </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work2.jfif" alt="">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>This app made for the music lovers. </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+             <div class="work">
+                <img src="work3.jfif" alt="">
+                <div class="layer">
+                    <h3>Online shopping app</h3>
+                    <p>This app can help you to buy products at ease. </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+ </div>
+<!-- ------------- contact----------- -->
+<div id="contact">
+    <div class="container"><div class="row">
+        <div class="content-left">
+            <h1 class="SubTitle">Contact Me</h1>
+            <p><i class="fa-regular fa-paper-plane"></i>Praveen1candit@gmail.com</p>
+            <p><i class="fa-solid fa-phone-volume"></i>9344683716</p>
+            <div class="social-icon">
+                <a href="https://www.linkedin.com/in/praveen-kumar-3072b724a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/dashboard"><i class="fa-brands fa-square-github"></i></a>
+            </div>
+            <a href="PraveenResume.pdf" download class="btn btn2" >Download Cv</a>
+        </div>
+        <div class="content-right">
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="text" name="Email"placeholder="Your email" required>
+                <textarea name="Message" rows="5" placeholder="Your message"></textarea>
+                <button type="submit" class="btn btn2"> Submit</button>
+            </form>
+            <span id="msg"></span>
+        </div>
+    </div>
+</div>
+<div class="copyright">
+    <p>copyright @ Praveen Kumar<i class="fa-solid fa-heart"></i> </p>
+</div>
+</div>
+<script>
+var tablinks=document.getElementsByClassName("tab-links")
+var tabcontents=document.getElementsByClassName("tab-content")
+function opentab(tabname)
+{
+
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+        tablink.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link")
+    document.getElementById(tabname).classList.add("active-tab")
+}
+</script>
+<script>
+    var sidemenu=document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right ="0";
+    }
+    function closemenu(){
+        sidemenu.style.right ="-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbx5zNQfoULwvZebz3blyGGn8xfmbaicGAP7dnbIvbSaLgS5WP62rDmz5YQpI6AA7DOI/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg =document.getElementById("msg");
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML ="Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
